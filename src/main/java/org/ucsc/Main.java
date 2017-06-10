@@ -20,13 +20,6 @@ public class Main {
         ExecutorService executor = Executors.newFixedThreadPool(10);
 
         List<String> repos;
-        /*
-        GitClient gitClient = new GitClient("d372d108770b94f148f66fe5dc4b4dcfb49685da");
-        repos = gitClient.getRepositories("<1000", ">2000", JAVA);
-        for (String s : repos) {
-            System.out.println(s);
-        }
-        */
         repos = new ArrayList<>(Arrays.asList(
                 "https://github.com/lasith011/find-bug-sample.git",
                 "https://github.com/expectedbehavior/gauges-android.git",
