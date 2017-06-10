@@ -40,5 +40,6 @@ public class Main {
             Runit runit = new Runit(s);
             executor.execute(runit);
         }
+        executor.shutdown();
     }
 }
